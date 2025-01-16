@@ -1,0 +1,40 @@
+.navItemsContainer {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navContainer {
+  /* display: flex; */
+  /* background: pink; */
+  /* height: 100; */
+}
+
+.navContainer .closeBtn {
+}
+
+/* @media (min-width: 576px) {
+} */
+
+.closeBtn {
+  background: none;
+  margin-left: auto;
+  font-size: 33px;
+  padding: 0;
+}
+
+.navButton button {
+  background: pink;
+  background: none;
+  padding: 0;
+  position: relative;
+  top: 4px;
+}
+
+.navButton button svg {
+  font-size: 32px;
+}

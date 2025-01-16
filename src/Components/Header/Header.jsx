@@ -1,7 +1,13 @@
-import React from 'react';
+import Logo from '../Logo/Logo';
+import NavContainer from '../NavComponents/NavContainer/NavContainer';
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <>
+      <Logo />
+      <NavContainer />
+    </>
+  );
 };
 
 export default Header;
