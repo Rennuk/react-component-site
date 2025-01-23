@@ -1,0 +1,19 @@
+.tabsContainer {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabsContainer li {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid #e9eaea;
+}
+.tabsContainer li:hover {
+  cursor: pointer;
+}
+
+li.active {
+  background: #eee;
+  border-bottom: 1px solid #000;
+}
