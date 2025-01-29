@@ -1,0 +1,33 @@
+.menuItemContainer {
+  background-color: #fff;
+  width: 320px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 24px;
+  /* transform: translateX(320px);
+  transition: right; */
+}
+
+.menuItemContainer .slide-out {
+  /* transform: translateX(0); */
+}
+
+.menuItemContainer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menuNavBtn {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.closeBtn {
+  background: none;
+  margin-left: auto;
+  font-size: 30px;
+  padding: 0;
+}
